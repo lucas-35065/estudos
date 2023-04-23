@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var totalDeMeses = parseInt(prompt("Informe o total de meses"));
+
+    var contador = 1;
+
+    var totalGastoNoAno = 0;
+
+    while(contador <= totalDeMeses) {
+
+        var gasto = parseFloat(prompt("Informe total gasto no mês " + contador));
+
+        totalGastoNoAno = totalGastoNoAno + gasto;
+
+        contador++;
+    }
+
+    var media = totalGastoNoAno / totalDeMeses;
+
+    mostra("A média de gastos é " + media);
+</script>

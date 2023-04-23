@@ -1,0 +1,21 @@
+        <meta charset="utf-8">
+
+        <script>
+            function pularLinha() {
+                document.write ("<br>");
+                document.write ("<br>");
+            }
+            function mostra(frase) {
+                document.write("<big>" + frase + "</big>");
+                pularLinha();
+            }
+          
+            var multiplicando = parseInt (prompt("Você gostaria de saber a tabuada de qual número?"))
+
+            for(var multiplicador = 1; multiplicador <= 10; multiplicador++) {
+                mostra (multiplicando * multiplicador)
+            }
+            
+            mostra ("Fim")
+
+           </script>
