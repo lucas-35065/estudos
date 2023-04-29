@@ -4,6 +4,21 @@
       "nome": "felipe",
       "email": "felipe@alura.com",
       "id": 1
+    },
+    {
+      "nome": "Lucas Rodrigues",
+      "email": "lucas@email.com",
+      "id": 2
+    },
+    {
+      "nome": "Geovana Gomes",
+      "email": "geovana@email.com.br",
+      "id": 3
+    },
+    {
+      "nome": "Lucas",
+      "email": "fake@email.com",
+      "id": 4
     }
   ]
 }
