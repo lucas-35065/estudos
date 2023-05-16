@@ -1,2 +1,2 @@
 # projeto-apeperia
-Arquivos do projeto para a Apeperia
+Projeto em que aprendemos a fazer grid utilizando flexbox.
