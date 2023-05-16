@@ -5,6 +5,7 @@ Projeto desenvolvido junto ao curso da Alura com alguns toques pessoais.
 
 >Tecnologias Utilizadas:
 
+```
 - JavaScript;
 - Manipulação do DOM;
-
+```
