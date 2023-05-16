@@ -1,4 +1,4 @@
-#Lib Node
+##Lib Node
 
 **Olá!** Esta é uma Lib que verifica URLs e valida os links em arquivos *.md.* 
 
@@ -7,7 +7,7 @@ Você pode instalar o código em sua máquina e rodar direto no terminal.
 #Importante
     Esta lib foi desenvolvida na versão **18.16.0 do Node**. Utilizar versões acima da v18 podem resultar em uma quebra na funcionalidade. 
 
-#Como utilizar?
+##Como utilizar?
     
     Para extrair uma lista de links, você pode rodar no terminal, sem as aspas:
         npm run cli "caminhoDoArquivo/arquivo.md" 
