@@ -1,0 +1,30 @@
+        <meta charset="utf-8">
+
+        <script>
+            function pularLinha() {
+                document.write ("<br>");
+                document.write ("<br>");
+            }
+            function mostra(frase) {
+                document.write("<big>" + frase + "</big>");
+                pularLinha();
+            }
+           
+            var numeroPensado = Math.round (Math.random() * 10);
+
+            var tentativas = 1;
+
+            while (tentativas <= 3) {
+               
+                var chute = parseInt(prompt("Pensei em um número de 0 a 10, você consegue adivinhar?"));
+
+                if (chute == numeroPensado) {
+                    mostra ("Ihaaa, você acertou! O número que pensei é " + numeroPensado);
+                    break;
+                }
+                else{
+                    mostra("Você errou!");   
+                }
+                tentativas++;
+            }
+           </script>
