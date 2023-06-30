@@ -1,5 +1,5 @@
 @import "styles/variaveis";
-@import "styles/breakpoint";
+@import "styles/breakpoints";
 
 .menu {
   padding: 20px $padding-horizontal;
@@ -50,12 +50,12 @@
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
     padding: 50px $padding-horizontal-md;
   }
-  &__title {
+  &__titulo {
     color: $dark;
     font-size: 3rem;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
-  &__filtros{
+  &__filtros {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
