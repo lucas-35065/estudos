@@ -1,4 +1,4 @@
-import React, { useState } from 'React';
+import React, { useState } from 'react';
 import { ITarefa } from '../../types/tarefa';
 import Botao from '../Botao';
 import style from './Formulario.module.scss';
