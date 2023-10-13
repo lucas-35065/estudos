@@ -1,7 +1,8 @@
 Maq_Cod,Maq_nome,Dat_entr,Last_maint,Cep_locz_maq
 1,Dobradeira Hidraulica,13/10/2020,13/10/2023,07130130
 2,Guilhotina Hidraulica,14/10/2020,13/10/2023,08490011
-3,Cilindro Sovador,15/10/2020,13/10/2023,07094180
-4,Curvador de Tubo,16/10/2020,13/10/2023,07130130
+3,Cilindro Sovador,15/10/2020,13/01/2023,07094180
+4,Curvador de Tubo,16/10/2020,13/02/2023,07130130
 5,Torno de Bancada,17/10/2020,13/10/2023,08490011
 6,Fresadora de Bancada,18/10/2020,13/10/2023,07094180
+6,Furadeira de Bancada,18/10/2020,13/10/2021,07094180
